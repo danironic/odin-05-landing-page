@@ -73,6 +73,7 @@ body {
   align-items: center;
   gap: 60px;
   padding-bottom: 140px;
+  margin-bottom: 40px;
 }
 
 .hero-header {
@@ -84,4 +85,44 @@ body {
   padding: 6px 28px;
   border-radius: 5px;
   margin-top: 10px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.information-header {
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.magicians {
+  display: flex;
+  gap: 50px;
+}
+
+.magician {
+  width: 180px;
+  color: #1f2937;
+  font-size: 100;
+}
+
+.magician img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #3882f6;
+}
+
+.name {
+  display: block;
+  font-size: 20px;
+  font-style: italic;
 }
