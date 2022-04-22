@@ -33,10 +33,11 @@ body {
   align-content: center;
 }
 
-.logo {
+.logo a {
   color: #e5e7eb;
   font-size: 24px;
   font-weight: 900;
+  text-decoration: none;
 }
 
 .header-links {
