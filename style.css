@@ -70,10 +70,15 @@ body {
 
 .hero {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 60px;
   padding-bottom: 140px;
   margin-bottom: 40px;
+}
+
+.hero-text {
+  flex: 1;
 }
 
 .hero-header {
@@ -105,17 +110,19 @@ body {
 
 .magicians {
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
 .magician {
-  width: 180px;
+  max-width: 200px;
   color: #1f2937;
-  font-size: 100;
+  font-weight: 100;
+  font-size: 22px;
 }
 
 .magician img {
-  width: 180px;
+  width: 200px;
   height: auto;
   border-radius: 8px;
   border: 2px solid #3882f6;
@@ -123,6 +130,18 @@ body {
 
 .name {
   display: block;
-  font-size: 20px;
+  font-size: 16px;
   font-style: italic;
+  font-weight: normal;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.quote-text,
+.quote-author {
+  max-width: 400px;
 }
