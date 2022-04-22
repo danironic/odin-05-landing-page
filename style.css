@@ -70,6 +70,7 @@ body {
   padding-bottom: 140px;
   margin-bottom: 40px;
   padding: 20px 18vw 100px;
+  min-width: 550px;
 }
 
 .hero-text {
@@ -87,6 +88,7 @@ body {
 
 .button {
   background-color: #3882f6;
+  font-weight: 900;
   padding: 6px 28px;
   border-radius: 5px;
   margin-top: 10px;
@@ -114,6 +116,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  max-width: 100%;
+  min-width: 250px;
 }
 
 .magician {
@@ -169,10 +173,14 @@ body {
   justify-content: space-between;
   align-items: center;
   border-radius: 4px;
+  min-width: 400px;
+  align-self: center;
+  gap: 150px;
 }
 
 .cta-left {
   font-size: 16px;
+  min-width: 150px;
 }
 
 .cta-header {
@@ -181,6 +189,7 @@ body {
 
 .cta-right {
   border: 2px solid #e5e7eb;
+  min-width: 140px;
 }
 
 .footer {
