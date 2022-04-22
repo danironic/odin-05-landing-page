@@ -20,7 +20,8 @@ body {
 }
 
 .logo a,
-.hero-header {
+.hero-header,
+.cta-left {
   color: #f9faf8;
 }
 
@@ -158,4 +159,26 @@ body {
   font-size: 24px;
   font-weight: bold;
   align-self: flex-end;
+}
+
+.cta {
+  background-color: #3882f6;
+  margin: 80px 22vw;
+  padding: 45px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.cta-left {
+  font-size: 16px;
+}
+
+.cta-header {
+  font-size: 22px;
+}
+
+.cta-right {
+  border: 2px solid #e5e7eb;
 }
